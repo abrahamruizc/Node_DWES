@@ -9,3 +9,4 @@ module.exports.ultima = (array) =>{
 module.exports.numero = (array) =>{
     return array.length;
 };
+
