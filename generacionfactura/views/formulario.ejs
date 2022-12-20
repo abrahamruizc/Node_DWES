@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel='stylesheet' href='../public/stylesheets/style.css'/>
+</head>
+
+<body>
+    <div>
+        <h2>Catalogo productos</h2>
+        <table>
+            <tr>
+                <th>Nombre_Producto</th>
+                <th>Precio</th>
+            </tr>
+            <tr>
+                <td>Neopreno</td>
+                <td>70€</td>
+            </tr>
+            <tr>
+                <td>Gafas</td>
+                <td>30€</td>
+            </tr>
+            <tr>
+                <td>Aletas</td>
+                <td>50€</td>
+            </tr>
+            <tr>
+                <td>Boquilla</td>
+                <td>10€</td>
+            </tr>
+            <tr>
+                <td>Tabla</td>
+                <td>60€</td>
+            </tr>
+            <tr>
+                <td>Caña</td>
+                <td>80€</td>
+            </tr>
+            <tr>
+                <td>Valvula</td>
+                <td>30€</td>
+            </tr>
+            <tr>
+                <td>Arpon</td>
+                <td>80€</td>
+            </tr>
+            <tr>
+                <td>Tubo</td>
+                <td>20€</td>
+            </tr>
+            <tr>
+                <td>Gomas</td>
+                <td>10€</td>
+            </tr>
+        </table>
+    </div>
+
+    <form action="usuario" method="post">
+        <label for="DNI">DNI:</label>
+        <input type="text"  name="formDni" id="dni" placeholder="11.111.111-A">
+        <br>
+        <label for="Nombre">Nombre:</label>
+        <input type="text" name="formUsuarioNombre" id="nombre" placeholder="Nombre">
+        <br>
+        <label for="Apellidos">Apellidos:</label>
+        <input type="text" name="formApellidos" id="apellidos" placeholder="Apellidos">
+        <br>
+        <label for="contraseña">Contraseña:</label>
+        <input type="text" name="formContrasena" id="apellidos" placeholder="Entre 8-10 caracteres">
+        <br>
+        <label for="Email">Email:</label>
+        <input type="text" name="formEmail" placeholder="Email">
+        <br>
+        <label for="Telefono">Telefono:</label>
+        <input type="text" name="formTelefono" id="telefono" placeholder="+34 999999999">
+        <br>
+        <button>Comprar</button>
+    </form>             
+            
+</body>
+
+</html>
