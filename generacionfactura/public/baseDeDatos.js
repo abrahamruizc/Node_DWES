@@ -1,6 +1,11 @@
 let objetoAExportarAlFinal =  {}
+let objetoAExportarAlFinaldos =  {}
 
 let DNI = ["47342302F"];
+let productos = [{nombre: "neopreno", precio: 70},{nombre: "gafas", precio: 30},{nombre: "aletas", precio: 50},
+{nombre: "boquilla", precio: 10},{nombre: "tabla", precio: 60},{nombre: "cana", precio: 80},
+{nombre: "valvula", precio: 30},{nombre: "arpon", precio: 80},
+{nombre: "tubo", precio: 20},{nombre: "gomas", precio: 10}];
 
 objetoAExportarAlFinal.validarUsuario = function(dni, nombre, apellidos, contrasena, email, telefono) {
     return new Promise((resolve, reject) => {
